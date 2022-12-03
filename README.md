@@ -18,3 +18,7 @@
 	`DOCKER_USERNAME` for username and `DOCKER_TOKEN` for password.
 
 - Workflow Behavior
+	- When Github Workflow is running, it sets up a job, checksout branch, logs into Dockerhub, builds and pushes image to Dockerhub.
+	- Needed to change repository name, username, and password.
+
+- Deployment
