@@ -50,8 +50,8 @@
 
 
 ```mermaid
-  graph TD;
-      A-->B;
+  flowchart TB;
+      id1(Project)-->B;
       A-->C;
       B-->D;
       C-->D;
