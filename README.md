@@ -51,8 +51,7 @@
 
 ```mermaid
   graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      Project--push project to Github-->B;
+      Github Repo--Github starts the Action-->DockerHub;
+      DockerHub--DockerHub recieves new image that was created-->D;
 ```
