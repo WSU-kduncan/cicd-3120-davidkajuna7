@@ -3,6 +3,12 @@
 	- `sudo apt-get remove docker docker-engine docker.io`
 	- `sudo apt-get update`
 	- `sudo apt install docker.io`
+- Build Container from Dockerfile
+	- `docker build -t myimage .`
+- Running Container
+	- `docker run --rm --name phillywebserv -p 8080:80 myimage`
+- How to view
+	- `http://my-public-ip:8080`
 
 ## Git Actions & Dockerhub
 - Create Dockerhub pub repo
