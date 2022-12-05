@@ -50,8 +50,9 @@
 
 
 ```mermaid
-  flowchart TB;
-      A(Project)-->B(Github Repo);
+  graph TD;
+      A-->B;
+      A-->C;
       B-->D;
       C-->D;
 ```
