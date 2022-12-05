@@ -51,7 +51,8 @@
 
 ```mermaid
   graph TD;
-      Project --> B;
-      Github Repo --> DockerHub;
-      DockerHu b--> D;
+      A(Project)-->B(Github Repo);
+      A-->C;
+      B-->D;
+      C-->D;
 ```
