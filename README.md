@@ -50,8 +50,8 @@
 
 
 ```mermaid
-  flowchart TB;
-      id1(Project)-->B;
+  flowchart LR;
+      id1(Project)-- Project is pushed to Github -->B;
       A-->C;
       B-->D;
       C-->D;
