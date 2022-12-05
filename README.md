@@ -51,7 +51,7 @@
 
 ```mermaid
   flowchart LR;
-      id1(Project)-- Project is pushed to Github -->B;
+      A(Project)-- {Project is pushed to Github} -->B;
       A-->C;
       B-->D;
       C-->D;
