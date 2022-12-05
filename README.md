@@ -51,8 +51,7 @@
 
 ```mermaid
   flowchart LR;
-      A(Project)-- {Project is pushed to Github} -->B;
-      A-->C;
-      B-->D;
-      C-->D;
+      A(Project) -- {Project is pushed to Github} --> B(Github Repo);
+      B -- Repo recieves project. Creates and starts image and Actions -> C(DockerHub);
+      C --> D(Server);
 ```
